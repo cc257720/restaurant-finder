@@ -42,14 +42,20 @@ The ER diagram currently includes **10 foundational tables**, modeled fully in c
 - restaurant_cuisines  
 - locations  
 - ntas
-
-<img width="985" height="676" alt="Screenshot 2025-11-20 175134" src="https://github.com/user-attachments/assets/e4311c95-fb89-4704-a70b-ff4dd1528062" />
-
-> This ERD will expand to 20 tables for the final project.
+- health_inspections
+- open_restaurants_inspections
+- service_requests_311
+- audit_log
+- user_goals
+- goal_progress
+- suggested_restaurants
+- favorite_history
+- restaurant_tags
+- restaurant_tag_map
 
 ---
 
-## Code Demonstration (Checkpoint 1)
+## Code Demonstration (Checkpoint 2)
 A minimal working C++ program is included that compiles and runs, demonstrating basic output through a console menu.
 
 To build and run:
