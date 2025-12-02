@@ -32,6 +32,8 @@ Each dataset provides valuable context on restaurant conditions, cleanliness, co
 ## ER Diagram (Crow's Foot)
 The ER diagram currently includes **10 foundational tables**, modeled fully in crow’s-foot notation:
 
+<img width="801" height="703" alt="Screenshot 2025-12-02 183231" src="https://github.com/user-attachments/assets/712b397a-1eb6-4217-a10b-381a62168f87" />
+
 - users  
 - user_sessions  
 - user_preferences  
