@@ -17,7 +17,7 @@ This project is implemented in **C++** with a **MySQL** backend.
 These datasets will be used to enrich the application:
 
 1. **NYC Restaurant Inspection Results**  
-   https://data.cityofnewyork.us/Health/Restaurant-Inspection-Results/xx67-kt59
+   https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data
 
 2. **NYC Open Restaurants Inspections**  
    https://data.cityofnewyork.us/Transportation/Open-Restaurants-Inspections/4dx7-axux
@@ -30,7 +30,7 @@ Each dataset provides valuable context on restaurant conditions, cleanliness, co
 ---
 
 ## ER Diagram (Crow's Foot)
-The ER diagram currently includes **10 foundational tables**, modeled fully in crow’s-foot notation:
+The ER diagram currently includes **20 foundational tables**, modeled fully in crow’s-foot notation:
 
 <img width="801" height="703" alt="Screenshot 2025-12-02 183231" src="https://github.com/user-attachments/assets/712b397a-1eb6-4217-a10b-381a62168f87" />
 
@@ -57,10 +57,13 @@ The ER diagram currently includes **10 foundational tables**, modeled fully in c
 
 ---
 
-## Code Demonstration (Checkpoint 2)
-A minimal working C++ program is included that compiles and runs, demonstrating basic output through a console menu.
+## Code Demonstration
 
-To build and run:
+A fully working demo is shown as an mp4 file in the 'FINAL DEMO VIDEO' folder. It shows logging in (with multiple users), adding a restaurant to the database, favoriting a restaurant, rating a restaurant, and viewing some analytics from the 3 public databases we used.
+
+
+
+## To build and run:
 
 ```bash
 make
